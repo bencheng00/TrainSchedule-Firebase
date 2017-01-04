@@ -1,0 +1,87 @@
+
+
+body {
+	background-image:url("../images/fire1.gif");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-color:black;
+	min-height: 980px;
+}
+
+
+#header {
+	background-color:black;
+	height:150px;
+	background-image:url("../images/header.png");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+#left, #right {
+	background-color:black;
+	height:150px;
+}
+
+#row1, #row5 {
+	height:50px;
+}
+
+#schedule, #addtrain {
+	border-style:ridge;
+	border-color: red;
+	border-width: 5px;
+}
+
+#panelhead, #addtrainhead {
+	background-color:black;
+}
+
+#panelbody, #addtrainbody {
+	background-color: #4d0000;
+}
+
+#trainNameInput, #destinationInput, #firstTrainInput, #frequencyInput {
+	border-style:solid;
+	border-color:red;
+	border-width: 1px;
+}
+
+#addTrainBtn {
+	background-color: red;
+}
+
+#row2, #row4 {
+	background-color:black;
+	height:15px;
+}
+
+#row2, #row3, #row4 {
+	border-right-style:ridge;
+	border-right-color:red;
+	border-right-width:5px;
+	border-left-style:ridge;
+	border-left-color:red;
+	border-left-width:5px;
+}
+
+#row2 {
+	border-top-style:ridge;
+	border-top-color:red;
+	border-top-width:5px;
+}
+
+#row4 {
+	border-bottom-style:ridge;
+	border-bottom-color:red;
+	border-bottom-width:5px;
+}
+
+#scaryimage {
+	height:800px;
+}
+
+#field1, #field2, #field3, #field4, #field5 {
+	font-size:16px;
+	font-weight: bold;
+}
